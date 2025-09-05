@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+      <link rel="stylesheet" href="stilo.css">
+      <link rel="stylesheet" href="css/estilizado2.css">
+    <title>Ingles</title>
+</head>
+<body>
+    <header>
+  <nav class="navbar">
+    <div class="logo">LearnSphere</div>
+    <div class="menu-toggle fixed-tops" id="menu-toggle">&#9776;</div>
+    <ul class="nav-links" id="nav-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="niños.html">Kids</a></li>
+      <li><a href="jovenes.html">Teenagers</a></li>
+      <li><a href="adultsbienvenida.html">Adults</a></li>
+    </ul>
+    <div class="search-box">
+      <input type="text" placeholder="Search...">
+      <i class="fas fa-search"></i>
+    </div>
+  </nav>
+</header>
+<video width="100%" height="50%"  autoplay muted loop>
+  <source src="img/Presentación para Emprendimiento de Pasteleria Galletas Azul y Amarillo Moderno y Divertido .mp4" type="video/mp4">
+ 
+</video>
+
+
+<!--Temas-->
+
+<br>
+
+<!-- Encabezado -->
+  <!-- Temas -->
+  <main class="ingles-temas">
+    <h2 class="ingles-titulo">Course Topics</h2>
+
+    <div class="ingles-grid">
+      <div class="ingles-box">
+        <img src="https://www.thoughtco.com/thmb/iDu_J_-qUcbZ54AmNEamf7qo0XI=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/GettyImages-172586163-1--57220a043df78c5640d10a43.jpg" alt="">
+        <h3>Personal pronouns</h3>
+        <p>Learn to introduce yourself, greet others, ask basic questions, and talk about yourself.</p>
+        <a style="color: #ffffff;text-decoration: nonce;" href="claseingles.html" class="btn-explorar">Explore more</a>
+      </div>
+
+      <div class="ingles-box">
+        <img src="https://i.ytimg.com/vi/lL34M_veBR8/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLCMbr5PMYtdNDp5WNg7BRX6PamXew" alt="">
+        <h3>Essential Vocabulary</h3>
+        <p>Key words and phrases for communicating in everyday situations.</p>
+        <a  class="btn-explorar" onclick="openpap()">Explore more</a>
+      </div>
+
+      <div class="ingles-box">
+        <img src="https://bridge.edu/tefl/blog/wp-content/uploads/2025/03/Trends-in-Business-English-and-Corporate-Language-Training-featured-image-1.jpg" alt="">
+        <h3>English for Work</h3>
+        <p>Common phrases in meetings, interviews, emails, and customer service.</p>
+        <a  class="btn-explorar" onclick="openpap()">Explore more</a>
+      </div>
+
+      <div  class="ingles-box">
+        <img src="https://i.ytimg.com/vi/KLnruACwEfI/maxresdefault.jpg" alt="">
+        <h3>Basic Grammar</h3>
+        <p>Learn basic structures to form sentences clearly and correctly.</p>
+        <a  class="btn-explorar" type="button" onclick="openpap()">Explore more</a>
+      </div>
+
+      <div class="ingles-box">
+        <img src="https://pronounce.com/app/uploads/2022/07/woman-using-pronounce-headset.jpg" alt="">
+        <h3>Listening and Pronunciation</h3>
+        <p>Improve your listening comprehension and learn to pronounce with confidence.</p>
+        <a class="btn-explorar" onclick="openpap()">Explore more</a>
+      </div>
+
+ <div class="ingles-box">
+    https://www.shutterstock.com/image-photo/side-view-cheerful-excited-young-260nw-1806801244.jpg
+    <h3>Basic conversation</h3>
+    <p>Practice simple dialogues to communicate confidently in common situations.</p>
+    <a class="btn-explorar" onclick="openpap()">Explore more</a>
+  </div>
+
+  <div class="container">
+    <div class="push" id="pap">
+      <label for="nombre">Nombre 🧑‍🏫</label>
+      <input class="form" type="text" id="nombre">
+
+      <label for="apellidos">Apellidos 🧑‍🏫</label>
+      <input class="form" type="text" id="apellidos">
+
+      <label for="edad">Edad 🎂</label>
+      <input class="form" type="text" id="edad">
+
+      <button type="button" onclick="closepap()">Aceptar</button>
+    </div>
+  </div>
+
+           
+  <script>
+    function openpap() {
+      document.getElementById("pap").style.display = "block";
+    }
+
+    function closepap() {
+      document.getElementById("pap").style.display = "none";
+    }
+  </script>
+
+ 
+    
+      
+
+    
+</body>
+</html>
